@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B9462911D76849A00824F90 /* SlideSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9462911D76849A00824F90 /* JHWSlideSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHWSlideSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9462951D76849A00824F90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B9462971D76849A00824F90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B9462981D76849A00824F90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,10 +48,10 @@
 		4B9462A31D76849A00824F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B9462A61D76849A00824F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B9462A81D76849A00824F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B9462AD1D76849B00824F90 /* SlideSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9462AD1D76849B00824F90 /* JHWSlideSwitch.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHWSlideSwitch.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9462B11D76849B00824F90 /* SlideSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideSwitchTests.m; sourceTree = "<group>"; };
 		4B9462B31D76849B00824F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B9462B81D76849B00824F90 /* SlideSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9462B81D76849B00824F90 /* JHWSlideSwitch.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHWSlideSwitch.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9462BC1D76849B00824F90 /* SlideSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideSwitchUITests.m; sourceTree = "<group>"; };
 		4B9462BE1D76849B00824F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B9462CE1D76850300824F90 /* JHWSlideSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWSlideSwitch.h; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		4B9462881D76849A00824F90 = {
 			isa = PBXGroup;
 			children = (
-				4B9462931D76849A00824F90 /* SlideSwitch */,
+				4B9462931D76849A00824F90 /* JHWSlideSwitch */,
 				4B9462B01D76849B00824F90 /* SlideSwitchTests */,
 				4B9462BB1D76849B00824F90 /* SlideSwitchUITests */,
 				4B9462921D76849A00824F90 /* Products */,
@@ -96,14 +96,14 @@
 		4B9462921D76849A00824F90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B9462911D76849A00824F90 /* SlideSwitch.app */,
-				4B9462AD1D76849B00824F90 /* SlideSwitchTests.xctest */,
-				4B9462B81D76849B00824F90 /* SlideSwitchUITests.xctest */,
+				4B9462911D76849A00824F90 /* JHWSlideSwitch.app */,
+				4B9462AD1D76849B00824F90 /* JHWSlideSwitch.xctest */,
+				4B9462B81D76849B00824F90 /* JHWSlideSwitch.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B9462931D76849A00824F90 /* SlideSwitch */ = {
+		4B9462931D76849A00824F90 /* JHWSlideSwitch */ = {
 			isa = PBXGroup;
 			children = (
 				4B9462971D76849A00824F90 /* AppDelegate.h */,
@@ -118,6 +118,7 @@
 				4B9462A01D76849A00824F90 /* SlideSwitch.xcdatamodeld */,
 				4B9462941D76849A00824F90 /* Supporting Files */,
 			);
+			name = JHWSlideSwitch;
 			path = SlideSwitch;
 			sourceTree = "<group>";
 		};
@@ -159,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B9462901D76849A00824F90 /* SlideSwitch */ = {
+		4B9462901D76849A00824F90 /* JHWSlideSwitch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B9462C11D76849B00824F90 /* Build configuration list for PBXNativeTarget "SlideSwitch" */;
+			buildConfigurationList = 4B9462C11D76849B00824F90 /* Build configuration list for PBXNativeTarget "JHWSlideSwitch" */;
 			buildPhases = (
 				4B94628D1D76849A00824F90 /* Sources */,
 				4B94628E1D76849A00824F90 /* Frameworks */,
@@ -171,14 +172,14 @@
 			);
 			dependencies = (
 			);
-			name = SlideSwitch;
+			name = JHWSlideSwitch;
 			productName = SlideSwitch;
-			productReference = 4B9462911D76849A00824F90 /* SlideSwitch.app */;
+			productReference = 4B9462911D76849A00824F90 /* JHWSlideSwitch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4B9462AC1D76849B00824F90 /* SlideSwitchTests */ = {
+		4B9462AC1D76849B00824F90 /* JHWSlideSwitchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B9462C41D76849B00824F90 /* Build configuration list for PBXNativeTarget "SlideSwitchTests" */;
+			buildConfigurationList = 4B9462C41D76849B00824F90 /* Build configuration list for PBXNativeTarget "JHWSlideSwitchTests" */;
 			buildPhases = (
 				4B9462A91D76849B00824F90 /* Sources */,
 				4B9462AA1D76849B00824F90 /* Frameworks */,
@@ -189,14 +190,14 @@
 			dependencies = (
 				4B9462AF1D76849B00824F90 /* PBXTargetDependency */,
 			);
-			name = SlideSwitchTests;
+			name = JHWSlideSwitchTests;
 			productName = SlideSwitchTests;
-			productReference = 4B9462AD1D76849B00824F90 /* SlideSwitchTests.xctest */;
+			productReference = 4B9462AD1D76849B00824F90 /* JHWSlideSwitch.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4B9462B71D76849B00824F90 /* SlideSwitchUITests */ = {
+		4B9462B71D76849B00824F90 /* JHWSlideSwitchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B9462C71D76849B00824F90 /* Build configuration list for PBXNativeTarget "SlideSwitchUITests" */;
+			buildConfigurationList = 4B9462C71D76849B00824F90 /* Build configuration list for PBXNativeTarget "JHWSlideSwitchUITests" */;
 			buildPhases = (
 				4B9462B41D76849B00824F90 /* Sources */,
 				4B9462B51D76849B00824F90 /* Frameworks */,
@@ -207,9 +208,9 @@
 			dependencies = (
 				4B9462BA1D76849B00824F90 /* PBXTargetDependency */,
 			);
-			name = SlideSwitchUITests;
+			name = JHWSlideSwitchUITests;
 			productName = SlideSwitchUITests;
-			productReference = 4B9462B81D76849B00824F90 /* SlideSwitchUITests.xctest */;
+			productReference = 4B9462B81D76849B00824F90 /* JHWSlideSwitch.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -247,9 +248,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B9462901D76849A00824F90 /* SlideSwitch */,
-				4B9462AC1D76849B00824F90 /* SlideSwitchTests */,
-				4B9462B71D76849B00824F90 /* SlideSwitchUITests */,
+				4B9462901D76849A00824F90 /* JHWSlideSwitch */,
+				4B9462AC1D76849B00824F90 /* JHWSlideSwitchTests */,
+				4B9462B71D76849B00824F90 /* JHWSlideSwitchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -315,12 +316,12 @@
 /* Begin PBXTargetDependency section */
 		4B9462AF1D76849B00824F90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B9462901D76849A00824F90 /* SlideSwitch */;
+			target = 4B9462901D76849A00824F90 /* JHWSlideSwitch */;
 			targetProxy = 4B9462AE1D76849B00824F90 /* PBXContainerItemProxy */;
 		};
 		4B9462BA1D76849B00824F90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B9462901D76849A00824F90 /* SlideSwitch */;
+			target = 4B9462901D76849A00824F90 /* JHWSlideSwitch */;
 			targetProxy = 4B9462B91D76849B00824F90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -436,7 +437,7 @@
 				INFOPLIST_FILE = SlideSwitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jiexing.bima.com.SlideSwitch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JHWSlideSwitch;
 			};
 			name = Debug;
 		};
@@ -447,7 +448,7 @@
 				INFOPLIST_FILE = SlideSwitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jiexing.bima.com.SlideSwitch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JHWSlideSwitch;
 			};
 			name = Release;
 		};
@@ -458,8 +459,8 @@
 				INFOPLIST_FILE = SlideSwitchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jiexing.bima.com.SlideSwitchTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideSwitch.app/SlideSwitch";
+				PRODUCT_NAME = JHWSlideSwitch;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHWSlideSwitch.app/JHWSlideSwitch";
 			};
 			name = Debug;
 		};
@@ -470,8 +471,8 @@
 				INFOPLIST_FILE = SlideSwitchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jiexing.bima.com.SlideSwitchTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideSwitch.app/SlideSwitch";
+				PRODUCT_NAME = JHWSlideSwitch;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHWSlideSwitch.app/JHWSlideSwitch";
 			};
 			name = Release;
 		};
@@ -481,7 +482,7 @@
 				INFOPLIST_FILE = SlideSwitchUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jiexing.bima.com.SlideSwitchUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JHWSlideSwitch;
 				TEST_TARGET_NAME = SlideSwitch;
 			};
 			name = Debug;
@@ -492,7 +493,7 @@
 				INFOPLIST_FILE = SlideSwitchUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jiexing.bima.com.SlideSwitchUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JHWSlideSwitch;
 				TEST_TARGET_NAME = SlideSwitch;
 			};
 			name = Release;
@@ -509,7 +510,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B9462C11D76849B00824F90 /* Build configuration list for PBXNativeTarget "SlideSwitch" */ = {
+		4B9462C11D76849B00824F90 /* Build configuration list for PBXNativeTarget "JHWSlideSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B9462C21D76849B00824F90 /* Debug */,
@@ -518,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B9462C41D76849B00824F90 /* Build configuration list for PBXNativeTarget "SlideSwitchTests" */ = {
+		4B9462C41D76849B00824F90 /* Build configuration list for PBXNativeTarget "JHWSlideSwitchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B9462C51D76849B00824F90 /* Debug */,
@@ -527,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B9462C71D76849B00824F90 /* Build configuration list for PBXNativeTarget "SlideSwitchUITests" */ = {
+		4B9462C71D76849B00824F90 /* Build configuration list for PBXNativeTarget "JHWSlideSwitchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B9462C81D76849B00824F90 /* Debug */,
