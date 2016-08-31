@@ -17,7 +17,7 @@
                BlueprintIdentifier = "4B9462901D76849A00824F90"
                BuildableName = "SlideSwitch.app"
                BlueprintName = "SlideSwitch"
-               ReferencedContainer = "container:SlideSwitch.xcodeproj">
+               ReferencedContainer = "container:JHWSlideSwitch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "4B9462AC1D76849B00824F90"
                BuildableName = "SlideSwitchTests.xctest"
                BlueprintName = "SlideSwitchTests"
-               ReferencedContainer = "container:SlideSwitch.xcodeproj">
+               ReferencedContainer = "container:JHWSlideSwitch.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "4B9462B71D76849B00824F90"
                BuildableName = "SlideSwitchUITests.xctest"
                BlueprintName = "SlideSwitchUITests"
-               ReferencedContainer = "container:SlideSwitch.xcodeproj">
+               ReferencedContainer = "container:JHWSlideSwitch.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "4B9462901D76849A00824F90"
             BuildableName = "SlideSwitch.app"
             BlueprintName = "SlideSwitch"
-            ReferencedContainer = "container:SlideSwitch.xcodeproj">
+            ReferencedContainer = "container:JHWSlideSwitch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "4B9462901D76849A00824F90"
             BuildableName = "SlideSwitch.app"
             BlueprintName = "SlideSwitch"
-            ReferencedContainer = "container:SlideSwitch.xcodeproj">
+            ReferencedContainer = "container:JHWSlideSwitch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "4B9462901D76849A00824F90"
             BuildableName = "SlideSwitch.app"
             BlueprintName = "SlideSwitch"
-            ReferencedContainer = "container:SlideSwitch.xcodeproj">
+            ReferencedContainer = "container:JHWSlideSwitch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

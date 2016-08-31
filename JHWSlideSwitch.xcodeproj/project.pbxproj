@@ -234,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B94628C1D76849A00824F90 /* Build configuration list for PBXProject "SlideSwitch" */;
+			buildConfigurationList = 4B94628C1D76849A00824F90 /* Build configuration list for PBXProject "JHWSlideSwitch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -500,7 +500,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B94628C1D76849A00824F90 /* Build configuration list for PBXProject "SlideSwitch" */ = {
+		4B94628C1D76849A00824F90 /* Build configuration list for PBXProject "JHWSlideSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B9462BF1D76849B00824F90 /* Debug */,
@@ -516,6 +516,7 @@
 				4B9462C31D76849B00824F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B9462C41D76849B00824F90 /* Build configuration list for PBXNativeTarget "SlideSwitchTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				4B9462C61D76849B00824F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B9462C71D76849B00824F90 /* Build configuration list for PBXNativeTarget "SlideSwitchUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				4B9462C91D76849B00824F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

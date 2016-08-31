@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SlideSwitch.xcodeproj">
+      location = "self:/Users/pangqiyou/Desktop/SlideSwitch/JHWSlideSwitch.xcodeproj">
    </FileRef>
 </Workspace>
