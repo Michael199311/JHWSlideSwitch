@@ -16,6 +16,7 @@
 		4B9462A71D76849A00824F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9462A51D76849A00824F90 /* LaunchScreen.storyboard */; };
 		4B9462B21D76849B00824F90 /* SlideSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9462B11D76849B00824F90 /* SlideSwitchTests.m */; };
 		4B9462BD1D76849B00824F90 /* SlideSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9462BC1D76849B00824F90 /* SlideSwitchUITests.m */; };
+		4B9462D01D76850300824F90 /* JHWSlideSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9462CF1D76850300824F90 /* JHWSlideSwitch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4B9462B81D76849B00824F90 /* SlideSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9462BC1D76849B00824F90 /* SlideSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideSwitchUITests.m; sourceTree = "<group>"; };
 		4B9462BE1D76849B00824F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9462CE1D76850300824F90 /* JHWSlideSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWSlideSwitch.h; sourceTree = "<group>"; };
+		4B9462CF1D76850300824F90 /* JHWSlideSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWSlideSwitch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 				4B9462981D76849A00824F90 /* AppDelegate.m */,
 				4B94629A1D76849A00824F90 /* ViewController.h */,
 				4B94629B1D76849A00824F90 /* ViewController.m */,
+				4B9462CD1D76850300824F90 /* JHWSlideSwitch */,
 				4B94629D1D76849A00824F90 /* Main.storyboard */,
 				4B9462A31D76849A00824F90 /* Assets.xcassets */,
 				4B9462A51D76849A00824F90 /* LaunchScreen.storyboard */,
@@ -141,6 +145,15 @@
 				4B9462BE1D76849B00824F90 /* Info.plist */,
 			);
 			path = SlideSwitchUITests;
+			sourceTree = "<group>";
+		};
+		4B9462CD1D76850300824F90 /* JHWSlideSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				4B9462CE1D76850300824F90 /* JHWSlideSwitch.h */,
+				4B9462CF1D76850300824F90 /* JHWSlideSwitch.m */,
+			);
+			path = JHWSlideSwitch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 				4B9462991D76849A00824F90 /* AppDelegate.m in Sources */,
 				4B9462961D76849A00824F90 /* main.m in Sources */,
 				4B9462A21D76849A00824F90 /* SlideSwitch.xcdatamodeld in Sources */,
+				4B9462D01D76850300824F90 /* JHWSlideSwitch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
